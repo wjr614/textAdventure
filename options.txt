@@ -1,4 +1,16 @@
 Do you 1. flee the village or 2. help your neighbor?
 Do you help the villager or keep running?
 Do you stab the monster or attempt to distract it?
-Test
+
+
+
+
+
+
+
+
+
+
+
+[Do you try to run away or do you try to attack?]
+Slow Poke Ending (x/9)
