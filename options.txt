@@ -1,4 +1,4 @@
-Do you flee the village or help your neighbor?
+Do you 1. flee the village or 2. help your neighbor?
 Do you help the villager or keep running?
 Do you stab the monster or attempt to distract it?
 Test

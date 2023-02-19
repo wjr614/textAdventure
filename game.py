@@ -21,7 +21,7 @@ scenarioOptions = [[1, 2],[0,0],[0,0]]
 scenario = 0
 
     # Text
-font = pygame.font.Font('Augusta.ttf', 32)
+font = pygame.font.Font('Augusta.ttf', 28)
 
 # Functions
 def decide(key):
@@ -67,7 +67,7 @@ while True:
     screen.fill(black)
     
     # Draw Text
-    textWrap(scenarioText[scenario], scenarioOptionText[scenario], 60, height/2)
+    textWrap(scenarioText[scenario], scenarioOptionText[scenario], 70, height/2)
 
 
 
