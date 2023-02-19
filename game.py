@@ -1,4 +1,5 @@
 import sys, pygame
+import pygame as pg
 pygame.init()
 pygame.font.init()
 
@@ -68,8 +69,35 @@ while True:
     
     # Draw Text
     textWrap(scenarioText[scenario-1], scenarioOptionText[scenario-1], 60, height/2)
-
-
+    if (scenario == 1):
+        sprite = pg.image.load("image1.png")
+        sprite = pygame.transform.scale(sprite, (500, sprite.get_height()*(500/sprite.get_width())))
+        screen.blit(sprite,((width/2)-sprite.get_width()/2,-100))
+    if (scenario == 8):
+        sprite = pg.image.load("image5.png")
+        sprite = pygame.transform.scale(sprite, (300, sprite.get_height()*(300/sprite.get_width())))
+        screen.blit(sprite,((width/2)-sprite.get_width()/2,5))
+    if (scenario == 11):
+        sprite = pg.image.load("image6.png")
+        sprite = pygame.transform.scale(sprite, (350, sprite.get_height()*(350/sprite.get_width())))
+        screen.blit(sprite,((width/2)-sprite.get_width()/2,-10))
+    if (scenario == 12):
+        sprite = pg.image.load("image4.png")
+        sprite = pygame.transform.scale(sprite, (330, sprite.get_height()*(330/sprite.get_width())))
+        screen.blit(sprite,((width/2)-sprite.get_width()/2-10,5))
+    if (scenario == 10):
+        sprite = pg.image.load("image2.png")
+        sprite = pygame.transform.scale(sprite, (300, sprite.get_height()*(300/sprite.get_width())))
+        screen.blit(sprite,((width/2)-sprite.get_width()/2,5))
+    if (scenario == 8):
+        sprite = pg.image.load("image5.png")
+        sprite = pygame.transform.scale(sprite, (300, sprite.get_height()*(300/sprite.get_width())))
+        screen.blit(sprite,((width/2)-sprite.get_width()/2,5))
+    if (scenario == 15 or scenario == 21 or scenario == 22):
+        sprite = pg.image.load("image3.png")
+        sprite = pygame.transform.scale(sprite, (300, sprite.get_height()*(300/sprite.get_width())))
+        screen.blit(sprite,((width/2)-sprite.get_width()/2,5))
+    
 
     pygame.display.flip()
 
