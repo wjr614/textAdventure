@@ -1,16 +1,32 @@
 Do you 1. Flee the village or 2. Help your neighbor?
 Do you 1. Help the villager or 2. Keep running?
-
-
+Defenseless Hero Ending (1/10)
+The Running Coward Ending (2/10)
 Do you 1. Stab the monster or 2. Try to distract it?
-1. Leave the Village 2. Look for survivors
-1. Eat the moldy bread 2. Deal with it
+Do you 1. Leave the Village or 2. Look for survivors?
+Do you 1. Eat the moldy bread or 2. Deal with it?
 Do you 1. Attack or 2. Get a closer look
 1. Look for more victims 2. Resume looking for village
 Do you 1. Attack it 2. Run away
 1. Take an easy trophy 2. Leave them be
 Kill the dog.
 1. Give in 2. Live a peaceful life in the village
-
-[Do you try to run away or do you try to attack?]
-Slow Poke Ending (x/9)
+Corrupt Ending (3/10)
+Do you 1. try to run away or 2. do you try to attack?
+Slow Poke Ending (4/10)
+Do you 1. accept his invitation or 2. do you decline?
+Do you 1. accept his invitation or 2. do you decline?
+New Village Ending (5/10)
+Local Legend Ending (6/10)
+Do you 1. try to run away or 2. do you try to attack?
+Do you 1. try to run away or 2. do you try to attack?
+Do you 1. Try to find your family or 2. Flee the village
+Death With Family Ending (7/10)
+Do you 1. Check on the neighbor or 2. Look around for other survivors
+Do you 1. Check for survivors or 2. Run From Village
+Do you 1. Head north or 2. Head south
+Do you 1. Fight or 2. Run
+Raiders Death Ending (8/10)
+Do you 1. Head South or 2. stay
+New Village Ending 2 (9/10)
+New Barn Home (10/10)
