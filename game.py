@@ -15,17 +15,17 @@ black = 0, 0, 0
 screen = pygame.display.set_mode(size)
 
 # Scenarios
-scenarioOptions = [[1, 2],[0,0],[0,0]]
+scenarioOptions = [[2, 5],[3,4],[1,1],[1,1],[6,25],[7,23],[8,8],[9,21],[10,22],[11,22],[12,22],[13],[14],[1,1],[16,18],[1,1],[19,20],[19,20],[1,1],[1,1],[16,18],[16,18],[24,7],[1,1],[26,23],[28,31],[29,30],[31,32],[1,1]]
 
 # Variables
-scenario = 0
+scenario = 1
 
     # Text
-font = pygame.font.Font('Augusta.ttf', 28)
+font = pygame.font.Font('medieval.ttf', 28)
 
 # Functions
 def decide(key):
-    return scenarioOptions[scenario][key]
+    return scenarioOptions[scenario-1][key]
 
 #Startup
 
@@ -67,7 +67,7 @@ while True:
     screen.fill(black)
     
     # Draw Text
-    textWrap(scenarioText[scenario], scenarioOptionText[scenario], 70, height/2)
+    textWrap(scenarioText[scenario-1], scenarioOptionText[scenario-1], 60, height/2)
 
 
 
