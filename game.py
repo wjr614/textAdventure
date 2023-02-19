@@ -1,5 +1,6 @@
 import sys, pygame
 pygame.init()
+pygame.font.init()
 
 # Screen Stuff
 size = width, height = 900, 600
@@ -14,20 +15,18 @@ scenarioOptions = [[1, 2],[0,0],[0,0]]
 # Variables
 scenario = 0
 
+    # Text
+font = pygame.font.Font('Augusta.ttf', 32)
+
 # Functions
 def decide(key):
-    updateScreen(scenarioOptions[scenario][key])
     return scenarioOptions[scenario][key]
 
-def updateScreen(scenarios):
-    print(scenarioText[scenarios])
-    print(scenarioOptionText[scenarios])
-
 #Startup
-updateScreen(scenario)
 
 
 while True:
+    # Events
     for event in pygame.event.get():
         if event.type == pygame.QUIT: sys.exit()
 
@@ -40,7 +39,20 @@ while True:
                 scenario = decide(2)
             elif event.key == pygame.K_4:
                 scenario = decide(3)
+
     screen.fill(black)
+    
+    # Draw Text
+    text_surface1 = font.render(scenarioText[scenario], False, (255, 255, 255))
+    text_surface2 = font.render(scenarioOptionText[scenario], False, (255, 255, 255))
+    rectSize = text_surface1.get_rect()
+    rectSize2 = text_surface2.get_rect()
+
+    screen.blit(text_surface1, ((width/2)-rectSize.width/2,4*(height/5)-rectSize.height/2))
+    screen.blit(text_surface2, ((width/2)-rectSize2.width/2,4*(height/5)+rectSize.height/2))
+
+
+
     pygame.display.flip()
 
 
